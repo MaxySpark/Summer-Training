@@ -1,16 +1,17 @@
 class Q5 {
     public static void main(String [] args) {
-       for(long i = 0; i<50;i++) {
-           System.out.println(i+1 +". "+ fibo(i));
+        long[] fibo = new long[100];
+       for(int i = 0; i<50;i++) {
+           if(i==0) {
+               fibo[i] = 0;
+           } else if(i==1) {
+               fibo[i] = 1;
+           } else {
+               fibo[i] = fibo[i-1]+fibo[i-2];
+           }
+           System.out.println(i+1 +". "+ fibo[i]);
        }
     }
-    public static long fibo(long n) {
-        if(n==0) {
-            return 0;
-        } else if(n==1) {
-            return 1;
-        } else {
-            return fibo(n-1)+fibo(n-2);
-        }
-    }
 }
+
+//memorising
