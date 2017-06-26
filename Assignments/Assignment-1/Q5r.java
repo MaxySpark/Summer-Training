@@ -1,4 +1,4 @@
-class Q5m {
+class Q5r {
     public static void main(String [] args) {
        for(long i = 0; i<50;i++) {
            System.out.println(i+1 +". "+ fibo(i));
