@@ -46,27 +46,27 @@ class ScientificCalculator {
 
     double sin() {
         a = a * 0.0174533d;
-        retrun (Math.sin(a));
+        return (Math.sin(a));
     }
     double cos() {
         a = a * 0.0174533d;
-        retrun (Math.cose(a));
+        return (Math.cos(a));
     }
     double tan() {
         a = a * 0.0174533d;
-        retrun (Math.tan(a));
+        return (Math.tan(a));
     }
     double asin() {
         // a = a * 0.0174533d;
-        retrun (Math.asin(a));
+        return (Math.asin(a));
     }
     double acos() {
         // a = a * 0.0174533d;
-        retrun (Math.acos(a));
+        return (Math.acos(a));
     }
     double atan() {
         // a = a * 0.0174533d;
-        retrun (Math.atan(a));
+        return (Math.atan(a));
     }
 
      void input() {
@@ -81,8 +81,7 @@ class Q3 {
     public static void main(String[] args) {
         SimpleCalculator s = new SimpleCalculator();
         ScientificCalculator sc = new ScientificCalculator();
-
-        System.out.println("Enter The Numbers : ");
+        
         Scanner read = new Scanner(System.in);
         
         System.out.println("Enter Your Choice : ");
